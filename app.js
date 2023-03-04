@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 mongoose.connect(
-  "mongodb://localhost:27017"
+  "mongodb://localhost:27017/todolistDB"
 );
 console.log("Connected");
 
