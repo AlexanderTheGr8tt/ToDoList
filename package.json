@@ -8,6 +8,9 @@
   },
   "author": "Aleksander Małecki",
   "license": "ISC",
+  "engines": {
+    "node": "18.14.1"
+  },
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.8",
